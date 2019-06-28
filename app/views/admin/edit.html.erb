@@ -1,0 +1,16 @@
+<div class="bg-image">
+	<h1 class="text-center p-t-100">Admin Pannel</h1>
+	<h3 class="text-center">Edit Slider</h3>
+	<div class="container">
+		<div class="text-center">
+			<%= form_tag admin_path(@admin), :method => :put do  %>
+			<%= label_tag :heading%><br>
+			<%= text_field_tag :heading, @admin.heading, :class => "textbox"%><br>
+			<%= label_tag :paragraph%><br>
+			<%= text_area_tag :paragraph, @admin.paragraph, :class => "textarea"%><br><br>
+			<%= submit_tag%>
+			<%end%><br>
+		</div>
+	</div>
+</div>
+

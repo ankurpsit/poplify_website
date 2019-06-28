@@ -1,0 +1,193 @@
+<!-- slider container start -->
+<div id="my-pics" class="carousel slide" data-ride="carousel" style="width:100%;margin:auto;">
+  <div class="carousel-inner" role="listbox">
+<!-- Slide 1 -->
+    <div class="item active">
+      <%= image_tag("slider1.png") %>
+      <div class="carousel-caption content-style">
+        <h1 class="text-left"><%=@admin2.heading%></h1>
+        <p><%=@admin2.paragraph%></p>
+      </div>
+    </div>
+<!-- Slide 2 -->
+    <div class="item">
+      <%= image_tag("slider2.jpg") %>
+      <div class="carousel-caption content-style">
+        <h1 class="text-left"><%=@admin3.heading%></h1>
+        <p><%=@admin3.paragraph%></p>
+      </div>
+    </div>
+<!-- Slide 3 -->
+    <div class="item">
+      <%= image_tag("slider4.png") %>
+      <div class="carousel-caption content-style">
+        <h1 class="text-left"><%=@admin.heading%></h1>
+        <p><%=@admin.paragraph%></p>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+    <span class="icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+    <span class="icon-next" aria-hidden="true">
+    </span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- slider container end -->
+<div class="container p-t-25">
+  <!-- start our service container -->
+  <h6>
+    <span class="service-color">/ OUR SERVICES</span>
+  </h6>
+  <!-- end our service container -->
+</div>
+<div class="container p-b-40">
+  <h2 class="heading1 m-b-20">Are you looking to build a game changing startup or drive digital transformation in your organisation? We can help….</h2>
+</div>
+<div class="container">
+  <!-- start images container -->
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-b-20">
+      <div class="card-1">
+       <%= image_tag("Digital-Strategy-2019.jpg", :style => "width:100%;", :class=> "card1") %>
+       <%= image_tag("Strategy-Box.png", :style => "width:100%;", :class => "card1-hover display-none") %>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-b-20">
+      <div class="card-2">
+        <%= image_tag("Products.jpg", :style => "width:100%;", :class=> "card2") %>
+        <%= image_tag("Products-Box.png", :style => "width:100%;", :class => "display-none card2-hover") %>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-b-20">
+      <div class="card-3">
+        <%= image_tag("Marketing-2.jpg", :style => "width:100%;", :class=> "card3") %>
+        <%= image_tag("Marketing-Box.png", :style => "width:100%;", :class => "display-none card3-hover") %>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-b-20">
+      <div class="card-4">
+        <%= image_tag("Intelligence-.jpg", :style => "width:100%;", :class=> "card4") %>
+        <%= image_tag("Intelligence-Box.png", :style => "width:100%;", :class => "display-none card4-hover") %>
+      </div>
+    </div>
+  </div>
+  <!-- end images container -->
+</div>
+<div class="container p-t-25">
+  <!-- start container for who we work with -->
+  <h6>
+    <span class="service-color">/ WHO WE WORK WITH</span>
+  </h6>
+  <!-- end container for who we work with -->
+</div>
+<div class="container p-b-40">
+  <!-- start container for tagline -->
+  <h2 class="heading1 text-justify">From startups to global enterprises, we have...  
+    <div id="text">built a live video platform that connects people with experts around the world</div>
+  </h2>
+  <!-- end container for tag line -->
+</div>
+<div class="container">
+  <!-- start container for company project -->
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div class="project">
+        <%= image_tag("p1.jpg", :class => "width-100") %>
+        <h2 class="project-text">Fidelity</h2>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div class="project">
+        <%= image_tag("p2.jpg", :class => "width-100") %>
+        <h2 class="project-text">Big Potato Games</h2>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-sm-offset-3 col-lg-offset-0 col-md-offset-0 ">
+      <div class="project">
+        <%= image_tag("p3.jpg", :class => "width-100") %>
+        <h2 class="project-text">HowNow</h2>
+      </div>
+    </div>
+  </div>
+  <!-- end container for company project -->
+</div>
+<div class="container p-t-70 p-b-60">
+  <!-- start container for discover more -->
+  <center><button class="discover">DISCOVER MORE</button></center>
+  <!-- end container for discover more -->
+</div>
+<div class="img-container">
+  <!-- start for banner image -->
+  <%= image_tag("banner.jpg", :class => "img-banner width-100") %>
+  <div class="team">
+    <p class="team-content h1 text-center">Restless, Creative,<br> Passionate,&nbsp;Problem Solvers</p>
+    <div>
+      <center><button class="discover">MEET OUR TEAM</button></center>
+    </div>
+  </div>
+  <!-- end for banner image -->
+</div>
+<div class="container p-t-25 p-b-25">
+  <!-- start container for insights -->
+  <h6>
+    <span class="service-color">/ INSIGHTS</span>
+  </h6>
+  <!-- end container for insights -->
+</div>
+<div class="container">
+  <!-- start container for insights content -->
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <%= image_tag("s1.png", :class => "img-content width-100") %>
+      <div class="box-content">
+        <a href="#">Poplify Strategy</a>
+        <h4 class="box-h4">AI Unwrapped
+        </h4>
+        <p class="p-content">The journey towards AI organisations is now an integral component of corporate strategy as companies focus on redesigning core systems, processes, and business strategies around AI and its possibilities. Its end goal:…</p>
+        <p class="p-date">ON FEBRUARY 1. 2019</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <%= image_tag("s2.jpg", :class => "img-content width-100") %>
+      <div class="box-content">
+        <a href="#">Poplify Marketting</a>
+        <h4 class="box-h4">Marketting Trends 2019
+        </h4>
+        <p class="p-content">There are many new digital marketing trends and strategies that are evolving in the current high-tech, Internet-connected era and businesses now need to use them to succeed in their efforts because what…</p>
+        <p class="p-date">ON JANUARY 1, 2019</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <%= image_tag("s3.png", :class => "img-content width-100") %>
+      <div class="box-content">
+        <a href="#">Poplify Strategy</a>
+        <h4 class="box-h4">Innovation Models
+        </h4>
+        <p class="p-content">With industries from banking to healthcare being transformed and, in some instances, undermined by new business models and technology, executives are smart to wonder, “Are we next?” To confidently answer no, what…
+        </p>
+        <p class="p-date">ON DECEMBER 1, 2018</p>
+      </div>
+    </div>
+  </div>
+  <!-- end container for insights content -->
+</div>
+<div class="container p-t-40 p-b-40">
+  <!-- start container for read more button -->
+  <center><button class="discover">READ MORE</button></center>
+  <!-- end container for read more button -->
+</div>
+<div class="container m-t-60 m-b-60 parent-figure">
+  <!-- start container for oka image -->
+  <%= image_tag("oka.jpg", :class => "img-responsive width-100")%>
+  <div class="figure">
+    <h2>One Kind Act - Poplify</h2>
+    <p>Digital can improve the lives of others which is why we helped start One Kind Act (OKA). We coined the phrase ‘Living and Giving’ and developed an interactive website and digital marketing strategy around this. In the first 18 months, we helped OKA raise over £200,000, build a community of over a 1000 supporters and won charity startup of the year at the Asian Voice Awards.</p>
+  </div>
+  <div class="figure-footer hidden-md hidden-sm hidden-xs">&nbsp;
+  </div>
+  <!-- end container for oka image -->
+</div>
